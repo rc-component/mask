@@ -2,7 +2,7 @@
 
 Mask component for [react](https://facebook.github.io/react/).
 
-[Overlay](https://github.com/rc-component/overlay) + [https://github.com/rc-component/spinner] = Mask
+[Overlay](https://github.com/rc-component/overlay) + [Spinner](https://github.com/rc-component/spinner) = Mask
 
 Build with [webpack](https://webpack.github.io/) and [CSS Modules](https://github.com/css-modules/css-modules)
 
