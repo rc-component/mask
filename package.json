@@ -1,12 +1,14 @@
 {
   "name": "rc-mask",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mask Component for react",
   "repository": {
     "type": "git",
     "url": "https://github.com/rc-component/mask.git"
   },
-  "keywords": ["mask"],
+  "keywords": [
+    "mask"
+  ],
   "license": "MIT",
   "scripts": {
     "prepublish": ". ./.scripts/prepublish.sh",
