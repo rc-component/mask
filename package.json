@@ -1,11 +1,12 @@
 {
-  "name": "mask",
+  "name": "rc-mask",
   "version": "0.0.1",
-  "description": "Overlay Component",
+  "description": "mask Component for react",
   "repository": {
     "type": "git",
     "url": "https://github.com/rc-component/mask.git"
   },
+  "keywords": ["mask"],
   "license": "MIT",
   "scripts": {
     "prepublish": ". ./.scripts/prepublish.sh",
