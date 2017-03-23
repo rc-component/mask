@@ -45,7 +45,7 @@
     "webpack": "^1.13.0"
   },
   "dependencies": {
-    "rc-overlay": "0.0.7",
+    "rc-overlay": "0.1.0",
     "rc-spinner": "0.0.3",
     "react": "^15.0.0",
     "react-dom": "^15.0.0"
