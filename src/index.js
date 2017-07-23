@@ -1,16 +1,18 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import ReactDom from 'react-dom'
+import PropTypes from 'prop-types'
 import Overlay from 'rc-overlay'
 import Spin from 'rc-spinner'
-
 
 export default class Mask extends Component {
   static defaultProps = {
     spinHeight: 30,
     spinColor: '#ffffff',
+    delay: 0,
     show: false
   }
   static propTypes = {
+    delay: PropTypes.number,
     show: PropTypes.bool,
     spinHeight: PropTypes.number,
     spinColor: PropTypes.string
@@ -37,6 +39,7 @@ export default class Mask extends Component {
     return (
       <Overlay
         className={props.className}
+        delay={props.delay}
         style={props.style}
         show={props.show}>
         {do {
