@@ -17,7 +17,7 @@ Build with [webpack](https://webpack.github.io/) and [CSS Modules](https://githu
 ## Props
 
 name       | type   | default    | description
--------====| ------ | ---------- | ------------
+-----------| ------ | ---------- | ------------
 show       | boolean| false      | show the mask if true
 delay      | bumber | 0          | delay in miniseconds for shown of overlay
 spinHeight | number | 30         | height of spin
